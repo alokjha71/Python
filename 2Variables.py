@@ -14,3 +14,6 @@ print("my name is :",name)
 print("my age is :",age)
 print("my addreess is :",address)
 
+print(type(name))
+print(type(age))
+print(type(address))
