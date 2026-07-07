@@ -18,3 +18,15 @@ if(a>=b and a>=c):
         print("a is greateest")
 elif(b>=c):
     print("b is greatest")
+else:
+     print("C is greatest")
+
+# WAP to check if a number is multiple of 7 or not:
+ 
+x=int(input("Enter the number:"))
+
+if(x%7==0):
+     print("Number is multiple of seven")
+else:
+     print("Not a multiple of 7")
+
