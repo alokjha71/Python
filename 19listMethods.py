@@ -31,4 +31,14 @@ list=[1,2,3,4]
 list.insert(2,0)
 print(list)
 
+#6) list.remove():removes first occurance of element
 
+list=[1,2,3,4,2]
+list.remove(2)
+print(list)#op:[1,3,4,2]
+
+#7) list.pop(idx):removes element at particular index
+
+list=[2,3,4,5]
+list.pop(2)
+print(list) #op:[2,3,5]
